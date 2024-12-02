@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Máquina Calculadora</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+      
+      <div class="program container">
+          
+        <div class="calculater">
+            <h1>Calculadora `Pembele Tec´</h1>
+               <p id="resulter"></p>
+            <table>
+                <tr>
+                    <td><button class="But oper1" onclick="apagar()">C</button></td>
+                    <td><button class="But oper1" onclick="apagarOne()" ><</button></td>
+                    <td><button  class="But oper" onclick="receber('/')">÷</button></td>
+                    <td><button  class="But oper" onclick="receber('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button  class="But"  onclick="receber('7')">7</button></td>
+                    <td><button  class="But"  onclick="receber('8')">8</button></td>
+                    <td><button  class="But"  onclick="receber('9')">9</button></td>
+                    <td><button  class="But oper" onclick="receber('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button  class="But"  onclick="receber('4')">4</button></td>
+                    <td><button  class="But"  onclick="receber('5')">5</button></td>
+                    <td><button  class="But"  onclick="receber('6')">6</button></td>
+                    <td><button  class="But oper" onclick="receber('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button  class="But"  onclick="receber('1')">1</button></td>
+                    <td><button  class="But"  onclick="receber('2')">2</button></td>
+                    <td><button  class="But"  onclick="receber('3')">3</button></td>
+                    <td rowspan="2"><button  class="Butao But" onclick="calcular()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="bot"  onclick="receber('0')">0</button></td>
+                    <td><Button class="But" onclick="receber('.')">.</Button></td>
+                </tr>
+            </table> 
+        </div>
+
+      </div>
+
+</body>
+
+<script src="./js/index.js"></script>
+</html>

@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(45deg, #3f3f3f, #cacaca);
+    width: 100%;
+    height: 99vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.program h1{
+    color:#fff;
+    width: 100%;
+    
+}
+.program{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    font-weight: bold;
+}
+.calculater{
+    border-radius: 10px;
+    background-color: rgb(0,0,0, 0.4);
+    position: relative;
+    margin: auto;
+    top:0px;
+    width: 30%;
+
+}
+.calculater h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+.calculater p{
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 600px;
+    text-overflow: ellipsis;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#resulter{
+    height: 20px;
+    text-align: end;
+    background-color: #fff;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+table{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.But{
+    width: 30px;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.But:hover{
+    background-color: #888888;
+    border: none;
+    transition: all 0.3s ease;
+}
+.Butao{
+    height: 60px;
+    padding: 82px 30px;
+    background-color: green;
+    border: 2px solid green;
+}
+.Butao:hover{
+    background-color: rgb(2, 105, 2);  
+    border: 2px solid rgb(2, 105, 2);
+    transition: all 0.3s ease;
+}
+.bot{
+    width: 65px;
+    padding: 32px 65px;
+}
+.bot:hover{
+    background-color: #888888;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.oper{
+    background: #f1c40f;
+    border: none;
+}
+.oper:hover{
+    background: #d6ad06;
+    border: none;
+    transition: all 0.3s ease;
+}
+.oper1{
+    background: rgb(241, 22, 22);
+    border: none;
+}
+.oper1:hover{
+    background: rgb(223, 15, 15);
+    border: none;
+    transition: all 0.3s ease;
+}
